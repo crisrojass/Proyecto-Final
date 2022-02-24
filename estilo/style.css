@@ -1,25 +1,217 @@
-@media screen and (max-width:1440px){
-   .carousel{
-       position: absolute;
-       top: 3%;
-   }
-}
-
-@media screen and (max-width:1024px){
-
-    .carousel{
-        position: absolute;
-        top: 6%;
-    }
-}
-
-@media screen and (max-width:768px){
-
-}
-
 @media screen and (max-width:375px){
-    
+
+    /* Inicio HEADER*/
+
+   .carousel{
+
+    width: 1000px;
+    position: absolute;
+    top: 6%;
+   }
+
+   .navbar{
+
+       padding: 0;
+       width: 1000px
+   }
+
+   .container-fluid{
+       padding: 0;
+       width: 1000px;
+       background-color: black;
+       display: flex;
+       
+       
+   }
+   .navbar-collapse{
+       background-color: black;
+       display: flex;
+       flex-basis: 375px;
+   }
+
+   .navbar-toggler{
+       display: none;
+   }
+
+   .navbar-nav{
+        display: flex;
+        flex-direction:row;
+   }
+
+
+   /* Fin HEADER */
+
+   /* Primera seccion */
+
+   .container{
+       position: absolute;
+       top: 65%;
+   }
+   
+   .col{
+       position: absolute;
+       top: 1200%;
+   }
+
+   
+   .col-10 a img {
+       height: 200px;
+       width: 150px;
+       
+   }
+
+   .col-10{
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+
+       position: absolute;
+       left: 60%;
+   }
+
+   /* Final Pimera Seccion */
+
+   /* Segunda Seccion */
+   
+   .second-container{
+       display: flex;
+       flex-direction: row;
+       position: absolute;
+       top: 120%;
+       left: 0%;
+       width: 1000px;
+   }
+
+   .col-10-electro{
+       display: flex;
+       flex-direction: row;
+       justify-content:space-evenly;
+       width: 100%;
+   }
+
+   
+
+   .col-10-electro a img{
+    height: 200px;
+    width: 100px
+   }
+
+   .row-2{
+       display: flex;
+       width: 100%;
+   }
+
+   /* Final Segunda Seccion */
+
+   /* Seccion de imagenes contacto */
+
+   .container-contacto{
+       padding-top: 0%;
+       position: absolute;
+       top: 170%;
+       width: 1000px;
+
+   }
+
+   .container-2 img{
+       height: 100%;
+       width: 90%;
+   }
+
+   /* Final Seccion de imagenes contacto */
+
+   /* Mapa */
+
+   .mapa{
+       position: absolute;
+       top: 190%;
+           
+   }
+
+   /* Fin Mapa */
+
+   /* Footer Inicio */
+
+   .footer{
+       position: absolute;
+       top: 250%;
+   }
+
+   .container-footer{
+       width: 1000px;
+   }
+
+   .container-logo{
+       display: flex;
+       justify-content: center;
+   }
+
+   .items-footer{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .items-footer-second{
+       position: absolute;
+       left: 60%;
+       top: 10%;
+   }
+
+   .items-footer-third{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       left: 112%;
+       top: 10%;
+   }
+
+   .items-footer-fourth{
+       position: absolute;
+       top: 10%;
+       left: 180%;
+   }
+
+
+   .row-footer{
+       width: 50%;
+       position: absolute;
+       left: 0%;
+       top: 100%;
+   }
+
+   .col-auto{
+       position: absolute;
+       left: 0%;
+   }
+
+   .footer-final{
+       background-color: black;
+       width: 1000px;
+       height: 200px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+
+   }
+
+   .container-footer-final{
+       color: white;
+       display: flex;
+       justify-content: center;
+       
+   }
+
+   .container-footer-final-second{
+       color: white;
+       border-top: 2px solid white;
+       display: flex;
+       align-items: center;
+   }
+
 }
+
+    
+
 body{
     background-color: #eee;
 }
@@ -32,9 +224,9 @@ body{
     transition: all 1s;
 }
 
-.row{
+/*.row{
     width: 120%;
-}
+}*/
 
 .carousel-inner{
     padding-top: 4%;
@@ -61,7 +253,9 @@ body{
 
 .d-flex{
     width: 35%;
-    position: relative;
+    display: flex;
+    justify-content:flex-end;
+
     left:8%;
 }
 
@@ -129,13 +323,23 @@ body{
 }
 
 .container-contacto{
-    padding-top: 150px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container-contacto li{
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-2{
+    width: 1880px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between ;
+    justify-content: space-between;
+    
 }
 
 .img-fluid{
@@ -198,7 +402,7 @@ body{
     color: black;
 }
 .formulario{
-    width: 500px;
+    width: 300px;
 }
 
 .btn{
@@ -207,6 +411,7 @@ body{
 .boton-color{
     background-color: rgba(255, 0, 0, 0.835);
 }
+/*
 .footer-final{
     height: 300px;
     width: 100%;
@@ -245,4 +450,6 @@ body{
 
 .texto-final-second{
     color: white;
-}
+}*/
+
+
