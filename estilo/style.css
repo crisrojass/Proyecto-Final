@@ -1626,14 +1626,263 @@
 
     .carousel{
         position: absolute;
-        top: 8%;
+        top: 5.3%;
         width: 2560px;
     }
 
     /* Fin Carousel */
 
-    
+    /* Primera Seccion */
 
+    .container{
+        padding: 0;
+        position: absolute;
+        top: 65%;
+        width: 2560px;
+    }
+
+    .row{
+        margin: 0;
+        width: 2560px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .col-10{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0;
+        
+    }
+
+    .col-10 a:hover{
+        transform: scale(1.1);
+        transition: all 1.5s;
+    }
+
+    .col{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .col h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col h2 span{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-link{
+        width: 100%;
+    }
+
+    .col h2{
+        font-size: 350%;
+    }
+
+    /* Final Primera Seccion */
+
+    /* Segunda Seccion */
+
+    .second-container{
+        
+        width: 2560px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        box-sizing: none;
+        position: absolute;
+        top: 120%;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    .row-2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .col-10-electro a img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .col-10-electro{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .col-mb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .col-mb h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 350%;
+    }
+
+    .col-mb h2 span{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Final Segunda Seccion */
+
+    /* Seccion Contacto */
+
+    .container-contacto{
+        padding: 0;
+        position: absolute;
+        top: 160%;
+        width: 2560px;
+    }
+
+    .container-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .img-contacto{
+        border: 2px solid black;
+    }
+
+    /* Final Seccion Contacto */
+
+    /* Mapa */
+
+    .mapa-container{
+        position: absolute;
+        top: 190%;
+    }
+
+    .mapa{
+        width: 2560px;
+        height: 320px;
+    }
+
+    /* Fin Mapa*/
+
+    .container-footer{
+        position: absolute;
+        top: 220%;
+        width: 2560px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .items-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 10%;
+    }
+
+    .items-footer-second{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 20%;
+    }
+
+    .text-item{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .text-item:hover{
+        text-decoration: underline;
+        color:orangered;
+    }
+
+    .items-footer-third{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .items-footer-fourth{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+
+    .row-footer{
+        position: absolute;
+        top: 30%;
+        width: 20%;
+    }
+
+    .col-auto{
+        position: absolute;
+        top: 0%;
+        left: 100%;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+    .boton-color{
+        color: white;
+    }
+
+    .footer-final{
+        background-color: black;
+        position: absolute;
+        top: 260%;
+        width: 2560px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .container-footer-final{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .texto-final{
+        border-bottom: 2px solid white;
+    }
+
+    .container-footer-final-second{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
 
 
 }
